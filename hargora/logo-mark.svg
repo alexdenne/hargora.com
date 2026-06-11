@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24" width="32" height="24">
+  <defs>
+    <clipPath id="h-clip">
+      <rect x="3.5" y="0" width="25" height="24" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#h-clip)">
+    <!-- Left sparkle (shifted left by 2) -->
+    <g transform="translate(-2, 0)">
+      <path d="M 12.6 0 L 12.6 11.4 L 24 11.4 L 24 12.6 C 16.148 12.9 12.9 16.148 12.6 24 L 11.4 24 C 11.1 16.148 7.852 12.9 0 12.6 L 0 11.4 C 7.852 11.108 11.1 7.852 11.4 0 Z" fill="#a1c699"/>
+    </g>
+    <!-- Right sparkle (shifted right by 10) -->
+    <g transform="translate(10, 0)">
+      <path d="M 12.6 0 L 12.6 11.4 L 24 11.4 L 24 12.6 C 16.148 12.9 12.9 16.148 12.6 24 L 11.4 24 C 11.1 16.148 7.852 12.9 0 12.6 L 0 11.4 C 7.852 11.108 11.1 7.852 11.4 0 Z" fill="#a1c699"/>
+    </g>
+  </g>
+</svg>
